@@ -20,6 +20,6 @@ func main() {
 		fmt.Fprintln(w, "<pre>"+string(bytes)+"</pre>")
 
 	})
-	fmt.Println("Starting debug server at http://localhost:4000/ ..")
-	http.ListenAndServe(":4000", nil)
+	fmt.Println("Starting debug server at http://localhost:4444/ ..")
+	http.ListenAndServe(":4444", nil)
 }
